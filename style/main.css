@@ -1,17 +1,87 @@
 .main-section {
     display: flex;
+    flex-direction: column;
     height: 550px;
     background-position-y: 100%;
-    /* background-position-x: 60%; */
     background-repeat: no-repeat;
     background-size: 1440px 1315px;
     background-repeat: no-repeat;
     background-image: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero_2x.jpg);
 }
 
+.top-bar {
+    width: 980px;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 220px;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAHVQTFRFAAAA%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F5YtmQAAAACd0Uk5TAAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8gISIjJCUmZiD6WAAAAdlJREFUeF7t3btuFEEQheFzunotGYkIERA4spn3fyeHiAgEEtsXB82s2eEJavR%2F0Wjyo75XWfHpw4MkSXNqCkA2lr2%2B%2Fvz63n15qpI0x5yTSAM52XaxJLVXf%2FkoaY6xQk2sgXy8Ql2KJf3wS5HG6HMMQg3kZNkuxVGKNLxJo48%2BxhxTpBrIx7JcXEqUKJI3zd77CjWLaiAle4U6Iixv6q33MfocTL%2BBlCy7OEqJqCFvs%2FV2m3%2BTaiAd6zb7rlHtrbc1VA%2Bm30BSa%2B%2B7RNSo4a21thbVTL%2BBnCy7rCV1rdXbtbXW%2B%2Bh%2Ft78BZLM2v6NE1Fov%2FrpC3Zl%2BA2l5H6lrrRe%2FXNu%2BqCbUQE57qGvsoW5t9D4H028gJculOKLUWuvFz%2B16O9NipAZSsm8nWpfq53ZlTQ3k9s%2BamlADZ0CogZMh1MDJEGrgZAg1cDL%2Fh5ojLSC1%2ByMtLp8A2R0un3BNFEjv%2FpooDzqA9O4fdPD0Esju8PSSIglAdsciCZQzArI7lDOat30yCg8CGe2FB1eovZcI7oMSwUBSq0TwWlQHxfyBEzgW86ftDpDase0ODfKA7A4N8mhlC2R318r2px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC') no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+    font-size: 16px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px 0px;
+    color: rgb(51, 51, 51);
+}
+
+.top-bar ul {
+    display: table;
+    width: auto;
+}
+
+.top-bar li {
+    width: 80px;
+}
+
+.top-bar a {
+    color: white;
+    text-decoration: none;
+    font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+.sp-label {
+    color: white;
+    text-decoration: none;
+    font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+nav {
+    display: flex;
+}
+
+nav li {
+    display: inline-block;
+    text-align: center;
+    padding: 0.6em;
+    border-left: 0.5px solid rgb(51, 51, 51);
+}
+
+#gn-apple {
+    height: 9px;
+    margin-bottom: -7px;
+    background: url('https://web.archive.org/web/20140225073748im_/http://images.apple.com/global/nav/images/globalnav_text.svg');
+    background-position: 50% -2%;
+}
+
+#gn-apple span{
+    color: transparent;
+}
+
+.top-bar input {
+    width:120px;
+    margin: auto;
+    border-radius: 12px;
+    background-color: transparent;
+    color: white;
+    text-indent: 5px;
+    
+}
+
+::placeholder {
+    color:whitesmoke;
+}
+
 .main-section .title-images {
     width: 980px;
     margin: auto;
+    margin-top: -200px;
 
 }
 
@@ -28,6 +98,7 @@
 .main-section .title-img-small {
     width: 980px;
     height: 34px;
+    margin-top: 20px;
 }
 
 .iphonemodels-list {
@@ -36,27 +107,23 @@
 }
 
 .iphonemodels-list img {
-    width: 364px;
+    width: 360px;
     height: 200px;
 }
 
 .footer-container {
     color: #6e6e6e;
-    font-size: .8334em;
+    font-size: .8334rem;
     line-height: 1.2;
     text-align: center;
     margin: auto;
-    width: 1200px;
+    width: 1250px;
     display: flex;
     flex-wrap: wrap;
 }
 
-.footer-container ul {
-    display: inline-block;
-}
-
 .footer-container a {
-    font-size: .8334em;
+    font-size: .8334rem;
     line-height: 1.2;
     color: #08c;
     text-decoration: none;
@@ -66,7 +133,7 @@
     width: 49%;
     margin-top: 2em;
     text-align: left;
-    font-size: .8334em;
+    font-size: .8334rem;
     line-height: 1.2;
 }
 
@@ -85,7 +152,13 @@
 }
 
 .first {
-    border-left: 0 !important; /*Remove border first list element*/
+    border-left: 0 !important;
+    /*Remove border first list element*/
+}
+
+.first p {
+    margin-left: -8px;
+    /*Align Copyright text to left*/
 }
 
 .leftbottomsection {
@@ -95,6 +168,6 @@
 }
 
 .footer-container p {
-    font-size: .8334em;
+    font-size: .8334rem;
     line-height: 1.2;
 }
