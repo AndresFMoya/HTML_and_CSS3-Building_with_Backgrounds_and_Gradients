@@ -9,7 +9,7 @@ This project consists of building a webpage using images as a background and add
 - Stickler
 - Prettier
 
-## [Live Version](https://andresfmoya.github.io/Building_with_Backgrounds_and_Gradients/)
+## [Live Version](https://andresfmoya.github.io/HTML_and_CSS3-Building_with_Backgrounds_and_Gradients/)
 
 
 ## 🤝 Contributing
